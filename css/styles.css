@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -24,7 +24,7 @@ body {
 }
 /* Header */
 .link {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
@@ -40,16 +40,16 @@ body {
     text-decoration: none;
     color: var(--dark-color);
 }
-.header-link a,
+.list a,
 .address a {
     text-decoration: none;
 }
-.header-link>li,
+.list>li,
 .address li {
     list-style-type: none;
 }
-.header-link a {
-        font-family: 'Roboto', sans-serif;
+.list a {
+        font-family: "Roboto", sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -60,7 +60,7 @@ body {
         color: var(--dark-color);
 }
 .address a {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -73,6 +73,9 @@ body {
 /* Footer */
 .footer {
     background-color: var(--dark-color);
+}
+.logo-footer {
+    color: var(--light-color);
 }
 .footer-txt {
         color: var(--light-color);
