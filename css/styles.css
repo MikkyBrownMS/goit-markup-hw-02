@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -19,15 +19,16 @@ body {
     
         letter-spacing: 0.02em;
     
-        color: #2E2F42;
+        color: #434455;
+        background-color: var(--white-color);
 }
 /* Header */
-.logo {
-    font-family: 'Raleway';
+.link {
+    font-family: 'Raleway', sans-serif;
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
     
         letter-spacing: 0.03em;
         text-decoration: none;
@@ -48,7 +49,7 @@ body {
     list-style-type: none;
 }
 .header-link a {
-        font-family: 'Roboto';
+        font-family: 'Roboto', sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
@@ -59,7 +60,7 @@ body {
         color: var(--dark-color);
 }
 .address a {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -70,6 +71,9 @@ body {
         color: var(--main-text-color);
 }
 /* Footer */
+.footer {
+    background-color: var(--dark-color);
+}
 .footer-txt {
         color: var(--light-color);
 }
