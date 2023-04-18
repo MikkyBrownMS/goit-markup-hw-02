@@ -23,7 +23,7 @@ body {
         background-color: var(--white-color);
 }
 /* Header */
-.link {
+.logo-link {
     font-family: "Raleway", sans-serif;
         font-style: normal;
         font-weight: 800;
@@ -36,35 +36,37 @@ body {
     color: var(--blue-logo-color);
 
 }
-.logo-secondary {
+.logo-header {
     text-decoration: none;
     color: var(--dark-color);
 }
-.list a,
-.address a {
-    text-decoration: none;
-}
-.list>li,
-.address li {
+
+.header-nav-link,
+.address-list-link {
     list-style-type: none;
 }
-.list a {
+.nav-link {
         font-family: "Roboto", sans-serif;
             font-style: normal;
             font-weight: 500;
             font-size: 16px;
             line-height: 1.5;
+            text-decoration: none;
         
             letter-spacing: 0.02em;
         
         color: var(--dark-color);
 }
-.address a {
+.address {
+    font-style: normal
+}
+.address-link {
     font-family: "Roboto", sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
+        text-decoration: none;
     
         letter-spacing: 0.02em;
     
