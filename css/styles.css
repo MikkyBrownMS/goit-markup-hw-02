@@ -57,6 +57,12 @@ body {
         
         color: var(--dark-color);
 }
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
 .address {
     font-style: normal
 }
@@ -72,6 +78,12 @@ body {
     
         color: var(--main-text-color);
 }
+
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 /* Footer */
 .footer {
     background-color: var(--dark-color);
