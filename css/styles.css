@@ -31,19 +31,22 @@ body {
         line-height: 1.17;
     
         letter-spacing: 0.03em;
-        text-decoration: none;
         text-transform: uppercase;
     color: var(--blue-logo-color);
 
 }
+
+.link {
+    text-decoration: none
+}
+
 .logo-header {
     text-decoration: none;
     color: var(--dark-color);
 }
 
-.header-nav-link,
-.address-list-link {
-    list-style-type: none;
+.list {
+    list-style: none;
 }
 .nav-link {
         font-family: "Roboto", sans-serif;
